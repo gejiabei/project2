@@ -146,4 +146,5 @@ VNF        Virtualized Network Functions            虚拟化网络功能
 
 插入图片
 
-.. image::
+.. image:: Corigine logo.png
+
