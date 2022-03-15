@@ -141,9 +141,9 @@ VNF        Virtualized Network Functions            虚拟化网络功能
    * 简单表格只有“=”和“-”。
    
 
-1.6 其他
+1.6 图片
 ------------------
 
-In order to persist the VFs on the system, it is suggested that the system
-networking scripts be updated to manage them. The following snippet illustrates
-how to do this with *NetworkManager* for the PF ``enp2s0np0``:
+插入图片
+
+.. image::
