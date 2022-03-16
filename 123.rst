@@ -146,6 +146,6 @@ VNF        Virtualized Network Functions            虚拟化网络功能
 
 插入图片
 
-.. image:: 000.png
+.. image:: ./000.png
 
 
