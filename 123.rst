@@ -76,7 +76,11 @@ eg:
 
 请参见以下命令:: 
 
- # cat /sys/module/nfp/srcversion
+ # ping 10.0.0.2
+ PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
+ 64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.067 ms
+ 64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.062 ms
+
 
 **python交互式应用，不需要加双冒号**
 
@@ -93,7 +97,7 @@ eg：
 
 .. note::
 
-   The ethtool interface is only available for hosts running kernel 4.16 or higher when using the in-tree driver. Please use the out of tree driver to enable ethtool flashing      on older kernels.
+   The ethtool interface is only available for hosts running kernel 4.16 or higher when using the in-tree driver. Please use the out of tree driver to enable ethtool      flashing on older kernels.
    
 .. warning::
 
@@ -147,5 +151,14 @@ VNF        Virtualized Network Functions            虚拟化网络功能
 插入图片
 
 .. image:: ./000.png
+
+1.7 脚注
+-------------------
+
+插入脚注
+
+这是一个历史名著 ([＃]_)
+
+.. rubric:: 资治通鉴
 
 
