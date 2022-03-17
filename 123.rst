@@ -157,8 +157,10 @@ VNF        Virtualized Network Functions            虚拟化网络功能
 
 插入脚注
 
-这是一个历史名著 ([＃]_)
+这本历史名著——《资治通鉴》 [＃]_
 
-.. rubric:: 资治通鉴
+.. rubric:: Footnotes
+
+.. #_ 《资治通鉴》，司马光著...
 
 
