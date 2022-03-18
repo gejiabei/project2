@@ -155,11 +155,11 @@ VNF        Virtualized Network Functions            虚拟化网络功能
 
 插入图片，注意图片存放的层级，./是当前目录，../是上级目录。
 
-.. image:: ../image/000.png
+.. image:: ./image/000.png
 
-.. image:: ../image/logo.png
+.. image:: ./image/logo.png
 
-登录服务器系统，执行命令``lspci | grep Net``，查看网卡PCIe基本信息，获取网卡设备的PCIe地址。
+登录服务器系统，执行命令**lspci | grep Net**，查看网卡PCIe基本信息，获取网卡设备的PCIe地址。
 
 .. image:: ./lspci.png
 
