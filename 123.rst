@@ -159,7 +159,9 @@ VNF        Virtualized Network Functions            虚拟化网络功能
 
 .. image:: ../image/logo.png
 
+登录服务器系统，执行命令``lspci | grep Net``，查看网卡PCIe基本信息，获取网卡设备的PCIe地址。
 
+.. image:: ./lspci.png
 
 1.7 脚注
 -------------------
