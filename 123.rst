@@ -12,14 +12,10 @@ RST文件编辑（一级标题）
  
 eg:
  
- * 111111 
- 
-   * 11111111111111111
-   * 122121221212122122112
-   * 1122121111111111111121212
-   
- * 222222
- * 333333
+ * Agilio CX 2x10G AMDA0096
+ * Agilio CX 2x25G AMDA0099
+ * Agilio CX 1x40G AMDA0081
+ * Agilio CX 2x40G AMDA0097
 
 **有序列表**
 
@@ -157,7 +153,11 @@ VNF        Virtualized Network Functions            虚拟化网络功能
 
 .. image:: ./image/logo.png
 
-登录服务器系统，执行命令**lspci | grep Net**，查看网卡PCIe基本信息，获取网卡设备的PCIe地址。
+登录服务器系统，执行命令\ **lspci | grep Net**\，查看网卡PCIe基本信息，获取网卡设备的PCIe地址。
+
+.. note::
+   
+   这里加粗字体在书写时需要将两边加上“斜杠”（见上面举例），用于隔开两边的字符。否则加粗不生效。
 
 .. image:: ./lspci.png
 
