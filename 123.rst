@@ -153,9 +153,7 @@ VNF        Virtualized Network Functions            虚拟化网络功能
 1.6 图片
 ------------------
 
-插入图片，注意图片存放的层级，./是当前目录，../是上级目录。
-
-.. image:: ./image/000.png
+插入图片，注意图片存放层级。
 
 .. image:: ./image/logo.png
 
