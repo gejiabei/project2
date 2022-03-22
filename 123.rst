@@ -83,7 +83,7 @@ For details, see `Technical Support`_.
 
 eg:
 
-可参见文字块_章节
+可参见 文字块_
 
 .. _文字块:
 
