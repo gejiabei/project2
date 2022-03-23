@@ -27,10 +27,21 @@ eg:
 
 eg:
 
- 1. 111
- 
-    a. 1111111111111
-    #. 1111111212212122
+ 1. Run the following command::
+  
+     yong@pc-01:/root$ cd /home/yong/code
+     yong@pc-01:~/code$ cd corenic-docs-private
+     yong@pc-01:~/code/corenic-docs-private$ make latexpdf
+
+     yong@pc-01:~/code/corenic-docs-private$ ls
+     doc  doc-html  Makefile  tox.ini
+     yong@pc-01:~/code/corenic-docs-private$ cd doc-html/
+     yong@pc-01:~/code/corenic-docs-private/doc-html$ ls
+     doctrees  html  latex
+     yong@pc-01:~/code/corenic-docs-private/doc-html$ cd latex/
+     yong@pc-01:~/code/corenic-docs-private/doc-html/latex$ pwd
+     /home/yong/code/corenic-docs-private/doc-html/latex（得到具体路径，在左边导航栏中获取导出件）
+
  #. 222
  #. 333
 
@@ -61,7 +72,7 @@ DPDK（名词）
  
 **直接链接外部网址**
 
-eg: For details, see https://zh-sphinx-doc.readthedocs.io/en/latest/tutorial.html#id3
+eg: For details, see https://corigine.atlassian.net/browse/OVSPPS-104
 
 **引用链接** 
 
@@ -113,10 +124,12 @@ eg：
 >>> print(a[2::2])
 [3,5]
 
-请参看以下内容：
+**无修饰的行句**
 
- | xxxxxxx
- | zzzzzzzzzzzzz
+eg:
+
+ | 枯藤老树昏鸦
+ | 小桥流水人家
 
 --------------------------------------------------------------
 
@@ -203,7 +216,7 @@ VNF        Virtualized Network Functions            虚拟化网络功能
 1.8 注释
 ----------------------------------------
 
-格式：两个点，换行后需要缩进再添加注释
+格式：两个点（即..），换行后需要缩进再书写注释内容。
 
 ..
  This is a comment.
