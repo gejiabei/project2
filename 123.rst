@@ -29,18 +29,10 @@ eg:
 
  1. Run the following command::
   
-     yong@pc-01:/root$ cd /home/yong/code
-     yong@pc-01:~/code$ cd corenic-docs-private
-     yong@pc-01:~/code/corenic-docs-private$ make latexpdf
-
-     yong@pc-01:~/code/corenic-docs-private$ ls
-     doc  doc-html  Makefile  tox.ini
-     yong@pc-01:~/code/corenic-docs-private$ cd doc-html/
-     yong@pc-01:~/code/corenic-docs-private/doc-html$ ls
-     doctrees  html  latex
-     yong@pc-01:~/code/corenic-docs-private/doc-html$ cd latex/
-     yong@pc-01:~/code/corenic-docs-private/doc-html/latex$ pwd
-     /home/yong/code/corenic-docs-private/doc-html/latex（得到具体路径，在左边导航栏中获取导出件）
+     # cd /home/yong/code/corenic-docs-private
+     # ls
+     # cd user-guide
+     # sudo make latexpdf
 
  #. 222
  #. 333
