@@ -34,8 +34,12 @@ eg:
      # cd user-guide
      # sudo make latexpdf
 
- #. 222
- #. 333
+ #. Run the following command::
+   
+     # cd /home/yong/code/disa-user-guide-private/
+     # sudo make latexpdf 
+  
+ #. xxxxxxxxxxxx
 
 **定义列表**
 
