@@ -179,6 +179,8 @@ VLAN       Virtual Local Area Network               虚拟局域网
 VNF        Virtualized Network Functions            虚拟化网络功能
 =======    ======================================   ===================
 
+The following table summarizes the features of OVS-TC. More detailed summaries follow hereafter.
+
 +----------------------------------------------------------------------------------------------+
 |OVS-TC Feature List                                                                           |
 +--------------------+---------------------------------------------+---------------------------+
