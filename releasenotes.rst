@@ -12,7 +12,7 @@ Release Update History
 1. Overview
 ============================================
 
-This document covers the version change instructions for Corigine Agilio Corenic. 
+This document covers the version change instructions for Corigine Agilio Open vSwtich Offload. 
 
 1.1 Version Mapping
 ---------------------------------------------
