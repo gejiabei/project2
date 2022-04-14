@@ -33,7 +33,7 @@ This document covers the version change instructions for Corigine Agilio Corenic
 The Agilio SmartNICs adhere to the following regulations.
 
 1.2.1 Environmental Compliance
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
    * European Union RoHS II Directive: 2011/65/EU
    * European Union REACH Directive: 2006/121/EC
@@ -41,7 +41,7 @@ The Agilio SmartNICs adhere to the following regulations.
    * Congo Conflict Minerals Act of 2009 (Section 1502 of Dodd-Frank Wall Street Reform and Consumer Protection Act including SEC ruling 17 CFR PARTS 240 and 249b)
  
 1.2.2 Regulatory Compliance
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
    * CFR 47 FCC Part 15 Subpart B Class A emissions requirements (USA)
    *	European Union EMC Directive: 2004/108/EC
