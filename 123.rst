@@ -39,7 +39,9 @@ eg:
      # cd /home/yong/code/disa-user-guide-private/
      # sudo make latexpdf 
   
- #. xxxxxxxxxxxx
+ #. Run the following command::
+ 
+     # reboot
 
 **定义列表**
 
@@ -124,8 +126,13 @@ eg：
 
 eg:
 
- | 枯藤老树昏鸦
- | 小桥流水人家
+--set-aneg=:
+ | S search - Search through supported modes until link is found. Only one side should be doing this. It may result in a mode that can have physical layer errors     depending on SFP type and what the other end wants. Long DAC cables with no FEC WILL have physical layer errors.
+ | A auto - Automatically choose mode based on speed and SFP type.
+ | C consortium - Consortium 25G auto-negotiation with link training.
+ | I IEEE - IEEE 10G or 25G auto-negotiation with link training.
+ | F forced - Mode is forced with no auto-negotiation or link training.
+
 
 --------------------------------------------------------------
 
