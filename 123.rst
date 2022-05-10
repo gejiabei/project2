@@ -131,9 +131,13 @@ eg:
  | S search - Search through supported modes until link is found. Only one side should be doing this. 
      It may result in a mode that can have physical layer errors depending on SFP type and what the 
      other end wants. Long DAC cables with no FEC WILL have physical layer errors.
+ 
  | A auto - Automatically choose mode based on speed and SFP type.
+
  | C consortium - Consortium 25G auto-negotiation with link training.
+ 
  | I IEEE - IEEE 10G or 25G auto-negotiation with link training.
+ 
  | F forced - Mode is forced with no auto-negotiation or link training.
 
 
@@ -233,7 +237,7 @@ The following table summarizes the features of OVS-TC. More detailed summaries f
 |                    | Port breakout nodes                         |
 +--------------------+---------------------------------------------+
 
-1.1.1 Flow match offload
+Flow match offload
 
 +-----------------+---------------------------------------------------+
 | in_port         |                                                   |
@@ -258,7 +262,7 @@ The following table summarizes the features of OVS-TC. More detailed summaries f
 +-----------------+---------------------------------------------------+
 
 
-1.1.2 Flow action offload
+Flow action offload
 
 +-----------------+---------------------------------------------------+
 | Layer 2         | set_src, set_dst                                  |
@@ -275,8 +279,6 @@ The following table summarizes the features of OVS-TC. More detailed summaries f
 +                 +---------------------------------------------------+
 |                 | UDP: set_sport, set_dport                         |
 +-----------------+---------------------------------------------------+
-
-
 
 .. note::
    * “-” 表示分隔行， “=”表示分隔表头和表体行，“|”表示分隔列，“+”表示行和列相交的节点。
