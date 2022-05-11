@@ -78,7 +78,9 @@ For details, see https://corigine.atlassian.net/browse/OVSPPS-104
 
 格式1    **`名称 <url>`_**
 
-eg: For details, see `Technical Support <https://www.corigine.com.cn/cn/index.html>`_.
+eg: 
+
+For details, see `Technical Support <https://www.corigine.com.cn/cn/index.html>`_.
 
 格式2    **`名称`_ 换行后，两个点+一个空格+一个下划线+名称+冒号+url**
 
