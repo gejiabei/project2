@@ -70,7 +70,9 @@ DPDK（名词）
  
 **直接链接外部网址**
 
-eg: For details, see https://corigine.atlassian.net/browse/OVSPPS-104
+eg: 
+
+For details, see https://corigine.atlassian.net/browse/OVSPPS-104
 
 **引用链接** 
 
