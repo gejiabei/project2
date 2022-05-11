@@ -84,7 +84,7 @@ eg:
 
 示例1：
 
-详情请参见 `Corigine官网`。
+详情请参见 `Corigine官网`_。
 
 .. : https://www.corigine.com.cn/cn/index.html
 
