@@ -82,17 +82,10 @@ eg: For details, see `Technical Support <https://www.corigine.com.cn/cn/index.ht
 
 eg:
 
-示例1：
-
 详情请参见 `Corigine官网`_。
 
 .. _Corigine官网: https://www.corigine.com.cn/cn/index.html
 
-示例2：
-
-For details, see `Technical Support`_.
-
-.. _: https://www.corigine.com.cn/cn/index.html
 
 **链接内部内容**   
 
@@ -100,17 +93,11 @@ For details, see `Technical Support`_.
 
 eg:
 
-示例1：
-
-可参见 文字块_。
+可参见 `文字块`_。
 
 .. _文字块:
 
-示例2：
 
-详情请参见 列表_。
-
-.. _列表：
 
 ---------------------------------------------------------------------------------------
 
