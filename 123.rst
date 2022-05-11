@@ -72,7 +72,7 @@ DPDK（名词）
 
 eg: 
 
-For details, see https://corigine.atlassian.net/browse/OVSPPS-104
+For details, see https://corigine.atlassian.net/browse/OVSPPS-104.
 
 **引用链接** 
 
