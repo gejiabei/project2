@@ -86,7 +86,7 @@ eg:
 
 详情请参见 `Corigine官网`_。
 
-.. : https://www.corigine.com.cn/cn/index.html
+.. _Corigine官网: https://www.corigine.com.cn/cn/index.html
 
 示例2：
 
