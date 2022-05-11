@@ -76,13 +76,13 @@ eg: For details, see https://corigine.atlassian.net/browse/OVSPPS-104
 
 格式1    **`名称 <url>`_**
 
-eg: For details, see `Technical Support <https://www.corigine.com.cn/cn/index.html>`_.
+eg: For details, see`Technical Support <https://www.corigine.com.cn/cn/index.html>`_.
 
 格式2    **`名称`_ 换行后，两个点+一个空格+一个下划线+名称+冒号+url**
 
 eg:
 
-详情请参见 `Corigine官网`_。
+详情请参见`Corigine官网`_。
 
 .. _Corigine官网: https://www.corigine.com.cn/cn/index.html
 
@@ -93,7 +93,7 @@ eg:
 
 eg:
 
-可参见 `文字块`_。
+可参见`文字块`_。
 
 .. _文字块:
 
