@@ -389,5 +389,5 @@ The following shell snippet illustrates this method for some particular <netdev>
 
 Example output of the script::
 
-SN: SMAAMDA0099-000117070631 (carbon)
-Assembly: AMDA0099
+ SN: SMAAMDA0099-000117070631 (carbon)
+ Assembly: AMDA0099
