@@ -327,7 +327,7 @@ Flow action offload
 
 .. image:: ./lspci.png
 
-上图存放路径在于此文件并列目录下。
+上图存放路径在与此文件并列目录下。
 
 .. note::
 
