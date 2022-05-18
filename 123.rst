@@ -215,7 +215,7 @@ VNF        Virtualized Network Functions            虚拟化网络功能
 
 The following table summarizes the features of OVS-TC. More detailed summaries follow hereafter.
 
-+------------------------------------------------------------------+
++-------------------------------------------------------------------+
 | OVS-TC Feature List                                               |
 +---------------------+---------------------------------------------+
 | Flow based features | Flow match offload                          |
@@ -344,7 +344,9 @@ Flow action offload
 1.8 注释
 ----------------------------------------
 
-格式：两个点（即..），换行后需要缩进再书写注释内容。eg：index文件的前四行
+格式：**两个点（即..），换行后需要缩进再书写注释内容。**
+
+eg：index文件的前四行
 
 ..
  This is a comment.
@@ -371,3 +373,21 @@ Flow action offload
    eg：
    
    ``text``
+
+源代码
+
+The following shell snippet illustrates this method for some particular <netdev> whose name is cast as the argument $1::
+
+  #!/bin/bash
+   DEVICE=$1
+   ethtool -W ${DEVICE} 0
+   DEBUG=$(ethtool -w ${DEVICE} data /dev/stdout | strings)
+   SERIAL=$(echo "${DEBUG}" | grep "^SN:")
+   ASSY=$(echo ${SERIAL} | grep -oE AMDA[0-9]{4})
+   echo ${SERIAL}
+   echo Assembly: ${ASSY}
+
+Example output of the script::
+
+SN: SMAAMDA0099-000117070631 (carbon)
+Assembly: AMDA0099
