@@ -110,12 +110,22 @@ eg:
 
 eg:
 
-请参见以下命令:: 
+The following shell snippet illustrates this method for some particular <netdev> whose name is cast as the argument $1::
 
- # ping 10.0.0.2
- PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
- 64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.067 ms
- 64 bytes from 10.0.0.2: icmp_seq=4 ttl=64 time=0.062 ms
+  #!/bin/bash
+   DEVICE=$1
+   ethtool -W ${DEVICE} 0
+   DEBUG=$(ethtool -w ${DEVICE} data /dev/stdout | strings)
+   SERIAL=$(echo "${DEBUG}" | grep "^SN:")
+   ASSY=$(echo ${SERIAL} | grep -oE AMDA[0-9]{4})
+   echo ${SERIAL}
+   echo Assembly: ${ASSY}
+
+Example output of the script::
+
+ SN: SMAAMDA0099-000117070631 (carbon)
+ Assembly: AMDA0099
+
 
 **python交互式应用，不需要加双冒号**
 
@@ -373,21 +383,3 @@ eg：index文件的前四行
    eg：
    
    ``text``
-
-源代码
-
-The following shell snippet illustrates this method for some particular <netdev> whose name is cast as the argument $1::
-
-  #!/bin/bash
-   DEVICE=$1
-   ethtool -W ${DEVICE} 0
-   DEBUG=$(ethtool -w ${DEVICE} data /dev/stdout | strings)
-   SERIAL=$(echo "${DEBUG}" | grep "^SN:")
-   ASSY=$(echo ${SERIAL} | grep -oE AMDA[0-9]{4})
-   echo ${SERIAL}
-   echo Assembly: ${ASSY}
-
-Example output of the script::
-
- SN: SMAAMDA0099-000117070631 (carbon)
- Assembly: AMDA0099
