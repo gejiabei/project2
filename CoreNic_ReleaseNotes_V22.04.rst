@@ -10,12 +10,12 @@ Release Update History
 ---------------------------------------------------------------------------------
 
 1. Overview
-============================================
+-------------------
 
 This document covers the version change instructions for Corigine Agilio CoreNic. 
 
 1.1 Version Mapping
----------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 +-------------+----------------------------------------------+
 | OS          | Kernel newer than 4.15 (or RHEL equivalent)  |
@@ -26,7 +26,7 @@ This document covers the version change instructions for Corigine Agilio CoreNic
 +-------------+----------------------------------------------+
 
 1.2 Standards and Regulations
-----------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Agilio SmartNICs adhere to the following regulations.
 
@@ -53,10 +53,10 @@ The Agilio SmartNICs adhere to the following regulations.
    *	EN 61000-4-8
 
 2. Support Features
-===========================
+-----------------------------
 
 2.1 New Features
-----------------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 +------------------------------+-------------------------------------------------------------+
 |Feature                       | Description                                                 |
@@ -105,22 +105,22 @@ The Agilio SmartNICs adhere to the following regulations.
 +------------------------------+-------------------------------------------------------------+
 
 2.2 Modified Features
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 None.
 
 
 2.3 Deleted Features
---------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 None.
 
 3. Resolved Issues
-==========================================
+----------------------------
 
 None.
 
 4. Known Issues
-================================
+-----------------------
 
 None.
