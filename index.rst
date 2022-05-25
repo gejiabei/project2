@@ -11,6 +11,7 @@ gejiabei Project
    :caption: Contents:
 
    123
-   
+   CoreNic_ReleaseNotes_V22.04
+   OpenvSwitchOffload_ReleaseNotes_V22.04
 
 
