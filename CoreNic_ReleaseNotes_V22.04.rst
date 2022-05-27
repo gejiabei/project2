@@ -1,5 +1,8 @@
-Release Update History
+CoreNic Release Notes
 =============================================
+
+Release Update History
+----------------------------------
 
 +------------+---------------+------------------------------------+
 | Revision   | Date          | Description                        |
