@@ -366,15 +366,20 @@ eg：index文件的前四行
   
    The linux-firmware package will store the Corigine firmware files in the */lib/firmware/netronome* directory
    
-   这是*<netdev>*
+   这是 *<netdev>* .
+   
  * 文字两边各加两个星号，表示加粗。
  
    eg：
    
    **加粗**
    
- * 文字两边各加两个反引号，表示代码。
+ * 文字两边各加两个反引号，表示 ``代码``.
  
    eg：
    
    ``text``
+   
+  .. note::
+
+    ``strings`` 命令通常由 *binutils* 软件包提供。
