@@ -414,7 +414,9 @@ Agilio系列网卡驱动所需操作系统最低版本为ESXi 7.0 U3。
    
         .. figure:: ./vmware_2x10_detail_information.png
    
-    #. 单击 .. image:: ./vmware_button 可以展开查看VMware产品详细信息。可以展开查看VMware产品详细信息。
+    #. 单击 |button| 可以展开查看VMware产品详细信息。可以展开查看VMware产品详细信息。
+	     
+		 .. |button| image:: vmware_button.png
    
         .. figure:: ./vmware_detail_information.png
    
