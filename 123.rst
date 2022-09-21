@@ -383,3 +383,82 @@ eg：index文件的前四行
   .. note::
 
     ``strings`` 命令通常由 *binutils* 软件包提供。
+    
+    
+    
+    .. highlight:: console
+
+附录F：安装VMware驱动
+=================================================
+
+Agilio系列网卡驱动所需操作系统最低版本为ESXi 7.0 U3。
+
+驱动下载
+---------------------------------------
+
+#. 访问 `VMware官网 <https://www.vmware.com/resources/compatibility/search.php>`_。
+  
+     .. figure:: ./vmware_login.png 
+  
+#. 选择对应驱动。
+  
+    a. 查找“IO Devices”，选择品牌名称“Corigine”，单击“更新并查找结果”。
+   
+        .. figure:: ./vmware_compatibility_guide.png
+    	
+	    查找结果如下：
+	
+	    .. figure:: ./vmware_io_information.png
+   
+    #. 单击所需型号名称，可查看详细信息。以Agilio GX 2x10GbE为例。
+   
+        .. figure:: ./vmware_2x10_detail_information.png
+   
+    #. 单击 .. image:: ./vmware_button 可以展开查看VMware产品详细信息。可以展开查看VMware产品详细信息。
+   
+        .. figure:: ./vmware_detail_information.png
+   
+    #. 单击脚注中的下载链接，弹出界面。选择对应驱动文件进行下载即可。
+   
+        .. figure:: ./vmware_driver_download.png
+   
+  
+驱动安装
+---------------------------------------
+
+使用SSH方式连接到ESXi HOST上，将上述已下载的驱动文件放至以下路径（以该路径为例）::
+
+    /vmfs/volumes/datastore1/VMW-esx-7.0.3-Corigine-nfp-1.0.0.3-1OEM.703.0.0.18644231.zip
+
+执行以下命令，解压缩驱动文件::
+
+   # unzip Corigine-nfp_1.0.0.3-1OEM.703.0.0.18644231_20272745-package.zip
+
+执行以下命令，安装驱动文件::
+
+   # esxcli software component apply -d /vmfs/volumes/datastore1/Corigine-nfp_1.0.0.3-1OEM.703.0.0.18644231_20272745.zip
+
+**说明：**
+   
+   * 以上命令中的路径为绝对路径。
+   
+   * 部分用户因没有安装证书在执行上述命令时出现失败情况，此时需在安装命令后加 ``--no-sig-check`` 。例如上述命令改为 ``esxcli software component apply -d /vmfs/volumes/datastore1/VMW-esx-7.0.3-Corigine-nfp-1.0.0.3-1OEM.703.0.0.18644231.zip --no-sig-check``
+
+等待安装完成后会有如下类似提示::
+
+   Installation Result
+      Components Installed: Corigine-nfp_1.0.0.3-1OEM.703.0.0.18644231
+      Components Removed:
+      Components Skipped:
+      Message: Operation finished successfully.
+      Reboot Required: false
+	  
+重启整机。完成后，SSH重新连接。执行命令 ``esxcli software component list |grep nfp`` 可以看到对应的nfp驱动信息即表示安装成功。
+
+ .. figure:: ./vmware_nfp_driver.png
+    :align: center
+
+此时可以通过 ``esxcli network nic list`` 查看到对应的nfp的vmnic口。
+
+ .. figure:: ./vmware_vmnic_list.png
+    :align: center
